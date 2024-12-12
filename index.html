@@ -3,29 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles/index.css">
     <title>Open Music</title>
   </head>
   <body>
     <!-- CABEÇALHO -->
-    <header>
+    <header class="header">
       <!-- DESENVOLVA AQUI OS ELEMENTOS DO CABEÇALHO -->
+       <div class="container">
+          <h1>open music</h1>
+          <button class="button__theme">LUA</button>
+       </div>
     </header>
 
     <!-- CONTEÚDO PRINCIPAL -->
     <main>
       <!-- SEÇÃO DE FILTRO POR GENERO -->
-      <section>
+      <section class="gender">
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
+         <div class="container">  
+            
+            <h3>Gênero Musical</h2>
+              <ul class="gender-list">
+                <li><button class="button__gender">Todos</button></li>
+                <li><button class="button__gender">Pop</button></li>
+                <li><button class="button__gender">MPB</button></li>
+                <li><button class="button__gender">Forró</button></li>
+                <li><button class="button__gender">Samba</button></li>
+                <li><button class="button__gender">Baião</button></li>
+                <li><button class="button__gender">Rap</button></li>
+                <li><button class="button__gender">Hip-Hop</button></li>
+              </ul>
+           
+         </div>
+          
       </section>
 
       <!-- SEÇÃO DE FILTRO POR PREÇO -->
-      <section>
+      <section class="price-range">
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
+         <div class="container">
+           <div class="price">
+             <h3>Definir Preço</h3>
+             <h4>Até R$</h4>
+           </div>
+           <input  type="range" id="range-price" class="range-price" max="500">
+         </div>
       </section>
 
       <!-- SEÇÃO DE ALBUNS -->
-      <section>
+      <section class="albums">
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
+         <div class="container">
+           <h3>Albuns Encontrados</h3>
+           <ul class="albums-list">
+            <li class="album-item"><img src="/src/assets/img/cover-1.png" alt="">
+              <h4>Acabou o Chorare</h4>
+              <div class="album-type">
+                <p>Novos Baianos</p>
+                <span>MPB</span>
+              </div>
+              <div class="album price">
+                <p>R$ 137,91</p>
+                <button>Comprar</button>
+              </div>
+            </li>
+            <li><img src="/src/assets/img/cover-2.png" alt="">
+              <h4>The Wall</h4>
+              <div class="album-type">
+                <p>Novos Baianos</p>
+                <span>MPB</span>
+              </div>
+              <div class="album price">
+                <p>R$ 137,91</p>
+                <button>Comprar</button>
+              </div>
+            </li>
+            <li><img src="/src/assets/img/cover-3.png" alt="">
+              <h4>To pimp a Butterfly</h4>
+              <p>Kendrick Lamar</p>
+              <span>Rap</span>
+              <p>R$ 102,66</p>
+              <button>Comprar</button>
+            </li>
+            <li><img src="/src/assets/img/cover-1.png" alt="">
+              <h4>Acabou o Chorare</h4>
+              <p>Novos Baianos</p>
+              <span>MPB</span>
+              <p>R$ 137,91</p>
+              <button>Comprar</button>
+            </li>
+            <li><img src="/src/assets/img/cover-2.png" alt="">
+              <h4>The Wall</h4>
+              <p>Pink Floyd</p>
+              <span>Rock</span>
+              <p>R$ 123,56</p>
+              <button>Comprar</button>
+            </li>
+            <li><img src="/src/assets/img/cover-3.png" alt="">
+              <h4>To pimp a Butterfly</h4>
+              <p>Kendrick Lamar</p>
+              <span>Rap</span>
+              <p>R$ 102,66</p>
+              <button>Comprar</button>
+            </li>
+           </ul>
+         </div>
       </section>
     </main>
   </body>

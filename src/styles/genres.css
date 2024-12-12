@@ -1,0 +1,17 @@
+.gender .container{
+    padding: 1.875rem;
+}
+
+.gender-list{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+.button__gender{
+    background-color: var(--color-gray6);
+    color: var(--color-gray3);
+    font-size: 1rem;
+    padding: 10px;
+}

@@ -1,0 +1,10 @@
+.button__theme{
+    background-image: "/src/assets/icons/moon-icon.svg";
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}

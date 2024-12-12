@@ -1,0 +1,11 @@
+@import "/src/styles/globalStyles.css";
+@import "/src/styles/reset.css";
+@import "/src/styles/header.css";
+@import "/src/styles/genres.css";
+@import "/src/styles/price-range.css";
+@import "/src/styles/albums.css";
+
+
+body{
+    font-family: "Inter",sans-serif;
+}

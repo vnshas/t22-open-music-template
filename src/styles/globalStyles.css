@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --color-brand1: #6F00FF;
+    --color-brand2: #8629FF;
+    --color-gray1: #15171A;
+    --color-gray2: #212529;
+    --color-gray3: #2B2F33;
+    --color-gray4: #CED4DA;
+    --color-gray5: #DEE2E6;
+    --color-gray6: #F1F3F5;
+    --color-gray7: #F8F9FA;
+    --color-gray8: #FDFEFF;
+}
+
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+
+}

@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: unset;
+}
+
+button{
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
