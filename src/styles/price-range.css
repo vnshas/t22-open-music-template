@@ -17,6 +17,7 @@
     transform: scale(2);
     appearance: none;
     display: block;
+    cursor: pointer;
     background-color: var(--color-gray5);
     border-radius: 10px;
     height: 5px;
@@ -31,6 +32,10 @@
     width: 12px;
     height: 12px;
     background-color: #ffffff;
-    border: solid 3px var(--color-brand1);
+    border: solid 3.5px var(--color-brand1);
     border-radius: 8px;
+}
+
+.range-value span{
+    color: var(--color-brand2);
 }

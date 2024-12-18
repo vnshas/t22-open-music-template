@@ -1,5 +1,9 @@
-.button__theme{
-    background-image: "/src/assets/icons/moon-icon.svg";
+.header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;;
+    background-color: var(--color-gray8);
 }
 
 .header .container{
@@ -7,4 +11,30 @@
     align-items: center;
     justify-content: space-between;
     padding: 30px;
+    /*background-color: var(--color-gray8);*/
+    border-bottom: 3px solid var(--color-brand1);
+}
+
+.button__theme{
+    background-image: url("/src/assets/icons/moon-icon.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.button__theme.dark-mode{
+    background-image: url("/src/assets/icons/Theme\ Button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2rem;
+    width: 2.5rem;
+}
+
+header h1{
+    font-size: 2.5rem;
+}
+
+header span{
+    color: var(--color-brand2);
 }

@@ -3,18 +3,22 @@
     flex-direction: column;
     padding: 30px;
     gap: 1.25rem;
+    margin-bottom: 1.875rem;
 }
 
 .albums-list{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 3.125rem;
+    
 }
 
 .album-item{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 10px;
+    background-color: var(--color-gray7);
 }
 
 .album-type{
@@ -27,4 +31,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
+}
+
+.album-price p{
+    font-weight: 600;
+}
+
+.album__button{
+    padding: .625rem .625rem;
+    background-color: var(--color-brand2);
+    color: #ffffff;
+    border-radius: .25rem;
+    font-weight: 500;
+}
+
+@media (max-width:600px){
+    .albums-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 3.125rem;
+    }
 }

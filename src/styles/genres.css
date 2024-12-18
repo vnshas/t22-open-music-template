@@ -1,17 +1,41 @@
 .gender .container{
     padding: 1.875rem;
+    margin-top: 2rem;
 }
 
 .gender-list{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
-    margin-top: 20px;
+    margin-block: 20px;
 }
 
-.button__gender{
+.music-gender{
+    margin-bottom: 50px;
+}
+
+.gender-label{
     background-color: var(--color-gray6);
+    cursor: pointer;
     color: var(--color-gray3);
     font-size: 1rem;
+    border-radius: 6px;
     padding: 10px;
+    font-weight: 500;
+}
+
+input[name="input-filter"]{
+    display: none;
+    
+}
+
+input[name="input-filter"]:checked + label{
+    background-color: var(--color-gray2);
+    color: var(--color-gray7);
+}
+
+.dark-mode input[name="input-filter"]:checked + label{
+    background-color: var(--color-gray7);
+    color: var(--color-gray2);
 }
