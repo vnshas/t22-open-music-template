@@ -16,7 +16,7 @@
 }
 
 .button__theme{
-    background-image: url("/src/assets/icons/moon-icon.svg");
+    background-image: url("../assets/icons/moon-icon.svg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 1.25rem;
@@ -24,7 +24,7 @@
 }
 
 .button__theme.dark-mode{
-    background-image: url("/src/assets/icons/Theme\ Button.png");
+    background-image: url("../assets/icons/Theme\ Button.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 2rem;

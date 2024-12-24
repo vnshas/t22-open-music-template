@@ -1,7 +1,7 @@
 import applyInputRangeStyle from "./inputRange.js"
 //import albumList from "./albumDatabase.js"  
-import { themeAnalasys,buttonTheme,themeChange } from "./theme.js"
-import { pegaDados } from "./api.js"
+import { themeAnalasys,buttonTheme,themeChange } from "../scripts/theme.js"
+import { pegaDados } from "../scripts/api.js"
 
 
 const rangePrice = document.querySelector('.range-price')
