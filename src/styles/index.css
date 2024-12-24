@@ -1,9 +1,9 @@
-@import "/src/styles/globalStyles.css";
-@import "/src/styles/reset.css";
-@import "/src/styles/header.css";
-@import "/src/styles/genres.css";
-@import "/src/styles/price-range.css";
-@import "/src/styles/albums.css";
+@import "../styles/globalStyles.css";
+@import "../styles/reset.css";
+@import "../styles/header.css";
+@import "../styles/genres.css";
+@import "../styles/price-range.css";
+@import "../styles/albums.css";
 
 
 body{

@@ -1,18 +1,18 @@
-const buttonTheme = document.querySelector(".button__theme");
-
+export const buttonTheme = document.querySelector(".button__theme");
+const albumItem = document.querySelectorAll('.album-item')
 const body = document.body;
 const header = document.querySelector('header')
-const albumItem = document.querySelectorAll('.album-item')
 const genderLabel = document.querySelectorAll('.gender-label')
-const listaGeneros = document.querySelector('.gender-list');
+
+
 
 
 let darkMode = false;
 
-function themeChange(){
-
+export function themeChange(){
+    const albumItem = document.querySelectorAll('.album-item')
     darkMode = !darkMode
-
+    
     body.classList.toggle("dark-mode")
     header.classList.toggle('dark-mode')
     for (let album of albumItem){
@@ -27,7 +27,7 @@ function themeChange(){
    localStorage.setItem("@openMusic:theme", JSON.stringify(darkMode));
 }
 
-function themeAnalasys(){
+export function themeAnalasys(){
     darkMode = JSON.parse(localStorage.getItem("@openMusic:theme"));
 
     if (darkMode){
@@ -42,7 +42,3 @@ function themeAnalasys(){
         buttonTheme.classList.toggle('dark-mode')
     }
 }
-
-themeAnalasys()
-
-buttonTheme.addEventListener("click", themeChange)

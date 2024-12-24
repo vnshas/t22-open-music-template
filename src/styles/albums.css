@@ -21,6 +21,15 @@
     background-color: var(--color-gray7);
 }
 
+.album-item img{
+    height: 12.5rem;
+}
+
+.dark-mode.album-item{
+    background-color: var(--color-gray2);
+    color: var(--color-gray7);
+}
+
 .album-type{
     display: flex;
     align-items: center;
@@ -46,6 +55,7 @@
     font-weight: 500;
 }
 
+
 @media (max-width:600px){
     .albums-list{
         display: grid;
@@ -53,3 +63,4 @@
         gap: 3.125rem;
     }
 }
+
